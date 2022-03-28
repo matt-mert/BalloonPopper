@@ -10,3 +10,5 @@ This project covers the following topics:
 - Taking user input with the input system package,
 - Coroutines (IEnumerator), basic gameplay logic,
 - Basic user interface design and counting score.
+
+Created by https://github.com/matt-mert
