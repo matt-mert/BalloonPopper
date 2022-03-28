@@ -9,6 +9,7 @@ This project covers the following topics:
 - Referencing, SerializeField, Public/Private,
 - Input system package, handling touch input,
 - Coroutines (IEnumerator), basic gameplay logic,
+- Particle system, lighting, and post processing,
 - Basic user interface design and counting score,
 - Building the game and running on a device.
 
