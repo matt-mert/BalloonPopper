@@ -1,6 +1,6 @@
 # Balloon-Popper
-Basic 3D game built with Unity, used for teaching purposes.  
-Balloons fall, you pop them by touching/clicking on them.  
+Basic 3D game built with Unity Engine, used for teaching purposes.  
+Balloons fall, you pop them by simply touching/clicking on them.  
 This project covers the following topics:
 - Basic Unity 3D editor interface and components,
 - 3D physics, raycasting, and collisions,
