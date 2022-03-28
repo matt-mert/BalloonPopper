@@ -7,8 +7,9 @@ This project covers the following topics:
 - Importing models, materials, and textures,
 - Creating prefabs, Object.Instantiate method,
 - Referencing, SerializeField, Public/Private,
-- Taking user input with the input system package,
+- Input system package, handling touch input,
 - Coroutines (IEnumerator), basic gameplay logic,
-- Basic user interface design and counting score.
+- Basic user interface design and counting score,
+- Building the game and running on a device.
 
 Created by https://github.com/matt-mert
