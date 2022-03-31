@@ -15,5 +15,5 @@ This project covers the following topics:
 - Basic user interface design and counting score,
 - Building the game and running it on a device.
 
-Created by https://github.com/matt-mert
+Created by https://github.com/matt-mert  
 Unity Engine version 2020.3.16f1
