@@ -10,6 +10,7 @@ This project covers the following topics:
 - Input system package, handling touch input,
 - Unity event system (subscribing/listening/trigger),
 - Coroutines (IEnumerator), basic gameplay logic,
+- Managers, singletons, scene management,
 - Enums, state machines, handling game states,
 - Particle system, lighting, and post processing,
 - Basic user interface design and counting score,
