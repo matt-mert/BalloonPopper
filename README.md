@@ -13,6 +13,6 @@ This project covers the following topics:
 - Enums, state machines, handling game states,
 - Particle system, lighting, and post processing,
 - Basic user interface design and counting score,
-- Building the game and running on a device.
+- Building the game and running it on a device.
 
 Created by https://github.com/matt-mert
