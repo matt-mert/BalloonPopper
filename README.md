@@ -16,3 +16,4 @@ This project covers the following topics:
 - Building the game and running it on a device.
 
 Created by https://github.com/matt-mert
+Unity Engine version 2020.3.16f1
