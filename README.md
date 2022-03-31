@@ -8,6 +8,7 @@ This project covers the following topics:
 - Creating prefabs, Object.Instantiate method (*),
 - Referencing, SerializeField, Public/Private,
 - Input system package, handling touch input,
+- Unity event system (subscribing/listening/trigger),
 - Coroutines (IEnumerator), basic gameplay logic,
 - Enums, state machines, handling game states,
 - Particle system, lighting, and post processing,
