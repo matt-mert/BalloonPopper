@@ -1,7 +1,9 @@
 # Balloon Popper
 Basic 3D game built with Unity Engine, used for teaching purposes.  
 Balloons fall, you pop them by simply touching/clicking on them.  
-This project covers the following topics:
+This project covers the following topics:  
+
+- Programming basics, C# syntax, conventions,
 - Basic Unity 3D editor interface and components,
 - 3D physics, raycasting, and collisions,
 - Importing models, materials, and textures,
@@ -14,7 +16,7 @@ This project covers the following topics:
 - Enums, state machines, handling game states,
 - Particle system, lighting, and post processing,
 - Basic user interface design and counting score,
-- Building the game and running it on a device.
-
+- Building the game and running it on a device.  
+- 
 Created by https://github.com/matt-mert  
 Unity Engine version 2020.3 LTS
