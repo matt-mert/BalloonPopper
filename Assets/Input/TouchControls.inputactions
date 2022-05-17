@@ -1,0 +1,33 @@
+{
+    "name": "TouchControls",
+    "maps": [
+        {
+            "name": "Touch",
+            "id": "732e4546-8228-4b79-bfb9-20426a63aef5",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "Value",
+                    "id": "873d21b1-1d6d-424c-89ea-32de4c7d0ca6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1147433a-a4d0-4a65-9548-cbea6505f9bc",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
