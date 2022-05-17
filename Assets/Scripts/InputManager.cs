@@ -5,18 +5,16 @@ using UnityEngine.SceneManagement;
 [DefaultExecutionOrder(-2)]
 public class InputManager : MonoBehaviour
 {
-    // Implementing singleton design pattern.
+    // Basic singleton implementation.
     public static InputManager Instance { get; private set; }
 
-    // The event that we will fire upon user input.
     public delegate void TouchInput(Ray ray);
     public event TouchInput OnTouchInput;
 
-    // Variables to be used.
     private TouchControls touchControls;
     private Camera currentCam;
 
-    // Making the singleton class persistent and caching the variables.
+    // Making the singleton persistent and caching the variables.
     private void Awake()
     {
         if (Instance == null)
@@ -62,6 +60,7 @@ public class InputManager : MonoBehaviour
     }
 
     // Called when the activeSceneChange event is fired (i.e. upon scene change).
+    // Re-caching the variables.
     private void OnSceneChange(Scene current, Scene next)
     {
         touchControls = new TouchControls();
@@ -71,7 +70,7 @@ public class InputManager : MonoBehaviour
     // Called when the performed event is fired (i.e. upon user input).
     // Transferring the ray that we shoot into the scene from the camera.
     // This ray will be used to see if we hit any balloons.
-    // Firing the event which will call the Shoot method in Gameplay class.
+    // Firing the event will call every method listening to it.
     private void TouchPrimary(InputAction.CallbackContext ctx)
     {
         if (OnTouchInput != null)
